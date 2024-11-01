@@ -1,11 +1,11 @@
-import React from 'react'
+import './style.css';
 
 const Products = () => {
   return (
-    <div>
+    <div className='products'>
       pro
     </div>
   )
 }
 
-export default Products
+export default Products;

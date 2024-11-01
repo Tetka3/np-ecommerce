@@ -2,12 +2,14 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import Footer from '../components/Footer';
+import Products from '../components/Products';
 
 const Home = () => {
   return (
     <div className='home'>
       <Navbar />
       <Hero />
+      <Products />
       <Footer />
     </div>
   )
