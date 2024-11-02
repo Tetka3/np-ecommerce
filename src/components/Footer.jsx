@@ -1,8 +1,8 @@
 import './style.css';
 import bank from '../assets/bank.jpeg';
-import master from '../assets/master.jpeg';
-import paypal from '../assets/paypal.jpeg';
-import skrill from '../assets/skrill.jpeg';
+import master from '../assets/master.png';
+import paypal from '../assets/paypal.png';
+import skrill from '../assets/skrill.png';
 import visa from '../assets/visa.jpeg';
 
 const Footer = () => {
