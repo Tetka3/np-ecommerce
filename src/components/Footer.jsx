@@ -36,10 +36,10 @@ const Footer = () => {
         <div class="bottom">
             <h3>We Accept</h3>
             <img src={bank} />
-            <img src="./images/master.png" />
-            <img src="./images/visa.jpeg" />
-            <img src="./images/paypal.png" />
-            <img src="./images/skrill.png" />            
+            <img src={master} />
+            <img src={visa} />
+            <img src={paypal} />
+            <img src={skrill} />            
         </div>         
     </footer>       
   )
