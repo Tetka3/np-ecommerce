@@ -1,4 +1,9 @@
 import './style.css';
+import bank from '../assets/bank.jpeg';
+import master from '../assets/master.jpeg';
+import bank from '../assets/bank.jpeg';
+import bank from '../assets/bank.jpeg';
+import bank from '../assets/bank.jpeg';
 
 const Footer = () => {
   return (
@@ -30,7 +35,7 @@ const Footer = () => {
         </div>
         <div class="bottom">
             <h3>We Accept</h3>
-            {/* <img src="./images/bank.jpeg" /> */}
+            <img src={bank} />
             {/* <img src="./images/master.png" /> */}
             {/* <img src="./images/visa.jpeg" /> */}
             {/* <img src="./images/paypal.png" /> */}
