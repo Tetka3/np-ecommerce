@@ -162,26 +162,16 @@
     display: flex;
     color: white;
 }
-.topLeft{
+.topLeft, .topCenter, .topRight {
     flex: 1;
 }
-.topLeft ul{
+.topLeft ul, .topCenter ul, .topRight ul{
     list-style: none;
     margin-left: 20px;
 }
 .topLeft ul li:hover, .topCenter ul li:hover, .topRight ul li:hover{
     cursor: pointer;
     text-decoration: underline;
-}
-.topCenter{
-    flex: 1;
-}
-.topCenter ul{
-    list-style: none;
-    margin-left: 20px;
-}
-.topRight{
-    flex: 1;
 }
 .bottom{
     display: flex;
