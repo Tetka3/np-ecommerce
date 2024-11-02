@@ -2,7 +2,7 @@
     margin: 0;    
     font-family: Helvetica;     
 }
-.nav-bar{
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -148,7 +148,7 @@
     align-items: center;
     gap: 5px;
 }
-.footer-div{
+.footerDiv{
     background-color: rgb(24, 21, 21);
     height: 30vh;
     display: flex;
@@ -162,10 +162,10 @@
     display: flex;
     color: white;
 }
-.top-left{
+.topLeft{
     flex: 1;
 }
-.top-left ul{
+.topLeft ul{
     list-style: none;
     margin-left: 20px;
 }
