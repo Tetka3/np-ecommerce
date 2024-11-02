@@ -169,7 +169,7 @@
     list-style: none;
     margin-left: 20px;
 }
-.topLeft ul li:hover{
+.topLeft ul li:hover, .topCenter ul li:hover, .topRight ul li:hover{
     cursor: pointer;
     text-decoration: underline;
 }
