@@ -1,9 +1,9 @@
 import './style.css';
 import bank from '../assets/bank.jpeg';
 import master from '../assets/master.jpeg';
-import bank from '../assets/bank.jpeg';
-import bank from '../assets/bank.jpeg';
-import bank from '../assets/bank.jpeg';
+import paypal from '../assets/paypal.jpeg';
+import skrill from '../assets/skrill.jpeg';
+import visa from '../assets/visa.jpeg';
 
 const Footer = () => {
   return (
@@ -36,10 +36,10 @@ const Footer = () => {
         <div class="bottom">
             <h3>We Accept</h3>
             <img src={bank} />
-            {/* <img src="./images/master.png" /> */}
-            {/* <img src="./images/visa.jpeg" /> */}
-            {/* <img src="./images/paypal.png" /> */}
-            {/* <img src="./images/skrill.png" />             */}
+            <img src="./images/master.png" />
+            <img src="./images/visa.jpeg" />
+            <img src="./images/paypal.png" />
+            <img src="./images/skrill.png" />            
         </div>         
     </footer>       
   )
