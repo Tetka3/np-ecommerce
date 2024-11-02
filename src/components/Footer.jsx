@@ -27,8 +27,8 @@ const Footer = () => {
                 </ul>
             </div>
             <div class="topRight">
+                <p>Legal</p>
                 <ul>
-                    <li>Legal</li>
                     <li>Terms of Service</li>
                     <li>Privacy Policy</li>
                     <li>Data Privacy</li> 
