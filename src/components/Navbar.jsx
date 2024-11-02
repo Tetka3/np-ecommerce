@@ -2,9 +2,9 @@ import './style.css';
 
 const Navbar = () => {
   return (
-    <div class="nav-bar">
+    <div class="navbar">
         <div class="logo">
-            <img src="./images/shop.jpeg" />
+            {/* <img src="./images/shop.jpeg" /> */}
         </div>
         <div class="search">
             <input type="text" placeholder="Search item here"/>
@@ -18,9 +18,9 @@ const Navbar = () => {
                     <li>Help </li> 
                 </ul>
             </div>
-            <div class="cart"><a href="cart.html">
-                <img src="./images/cart.jpeg" />
-                <span class="js-quantity">0</span></a>
+            <div class="cart">
+                {/* <img src="./images/cart.jpeg" /> */}
+                <span class="js-quantity">0</span>
             </div>            
         </div>
     </div>

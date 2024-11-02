@@ -2,9 +2,9 @@ import './style.css';
 
 const Footer = () => {
   return (
-    <footer class="footer-div">
+    <footer class="footerDiv">
         <div class="top">
-            <div class="top-left">
+            <div class="topLeft">
                 <p>Information</p>
                 <ul>
                     <li>Shop Pay</li>
@@ -12,7 +12,7 @@ const Footer = () => {
                     <li>For Brands</li>
                 </ul>
             </div>
-            <div class="top-center">
+            <div class="topCenter">
                 <p>Social</p>
                 <ul>
                     <li>Facebook</li>
@@ -21,7 +21,7 @@ const Footer = () => {
                     <li>Pinterest</li>
                 </ul>
             </div>
-            <div class="top-right">
+            <div class="topRight">
                 <p>Legal</p>
                 <p>Terms of Service</p>
                 <p>Privacy Policy</p>
@@ -30,11 +30,11 @@ const Footer = () => {
         </div>
         <div class="bottom">
             <h3>We Accept</h3>
-            <img src="./images/bank.jpeg" />
-            <img src="./images/master.png" />
-            <img src="./images/visa.jpeg" />
-            <img src="./images/paypal.png" />
-            <img src="./images/skrill.png" />            
+            {/* <img src="./images/bank.jpeg" /> */}
+            {/* <img src="./images/master.png" /> */}
+            {/* <img src="./images/visa.jpeg" /> */}
+            {/* <img src="./images/paypal.png" /> */}
+            {/* <img src="./images/skrill.png" />             */}
         </div>         
     </footer>       
   )
