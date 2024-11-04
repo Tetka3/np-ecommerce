@@ -6,12 +6,21 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <>
+      <Route path='/np-social' element={<HomePage />} />
+      <Route path="/np-social/login" element={<Login />} />     
+    </>
+  )
+);
+
 function App() {
   
 
   return (
-    <>
-      <Home />
+    <>   
+      <RouterProvider router={router}/>       
     </>
   )
 }
