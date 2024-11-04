@@ -1,18 +1,18 @@
-import React from 'react'
+import './style.css';
 
 const CartProduct = () => {
   return (    
-    <div class="product-details">
-        <div class="cart-image">
+    <div class="productDetails">
+        <div class="cartImage">
             <img src="" />
         </div>
         <div class="specifics">
             <p>Black suit</p>
             <p>$20.00</p>
-            <p>Quantity: 1</p>
+            <p>Quantity: 10</p>
         </div>
     </div>  
   )
 }
 
-export default CartProduct
+export default CartProduct;

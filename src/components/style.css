@@ -216,6 +216,7 @@
 }
 .productDetails{
     display: flex;
+    flex-direction: column;
 }
 .cartImage{
     padding: 10px;

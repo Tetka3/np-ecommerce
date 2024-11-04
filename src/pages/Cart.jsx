@@ -1,4 +1,4 @@
-import React from 'react'
+import './styles.css';
 import Navbar from '../components/Navbar';
 import CartProduct from '../components/CartProduct';
 import Footer from '../components/Footer';
