@@ -5,12 +5,13 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home';
+import Cart from "./pages/Cart";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path='/np-social' element={<HomePage />} />
-      <Route path="/np-social/login" element={<Login />} />     
+      <Route path='/np-ecommerce' element={<Home />} />
+      <Route path="/np-ecommerce/cart" element={<Cart />} />     
     </>
   )
 );
