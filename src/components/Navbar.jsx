@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div class="navbar">
         <div class="logo">
-            <img src={shop} onClick={() => navigate('/cart')}/>
+            <img src={shop} />
         </div>
         <div class="search">
             <input type="text" placeholder="Search item here..."/>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div class="cart">
-                <img src={cart} />
+                <img src={cart} onClick={() => navigate('/np-ecommerce/cart')} />
                 <span class="js-quantity">0</span>
             </div>            
         </div>
