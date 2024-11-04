@@ -1,12 +1,16 @@
 import './style.css';
 import shop from '../assets/shop.jpeg';
 import cart from '../assets/cart.jpeg';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+
+    const navigate = useNavigate();
+
   return (
     <div class="navbar">
         <div class="logo">
-            <img src={shop} />
+            <img src={shop} onClick={() => navigate('/cart')}/>
         </div>
         <div class="search">
             <input type="text" placeholder="Search item here..."/>
