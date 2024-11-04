@@ -1,5 +1,6 @@
 import './style.css';
 import shop from '../assets/shop.jpeg';
+import cart from '../assets/cart.jpeg';
 
 const Navbar = () => {
   return (
@@ -8,7 +9,7 @@ const Navbar = () => {
             <img src={shop} />
         </div>
         <div class="search">
-            <input type="text" placeholder="Search item here"/>
+            <input type="text" placeholder="Search item here..."/>
             <button>Go</button>
         </div>
         <div class="add">
@@ -20,7 +21,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div class="cart">
-                {/* <img src="./images/cart.jpeg" /> */}
+                <img src={cart} />
                 <span class="js-quantity">0</span>
             </div>            
         </div>
