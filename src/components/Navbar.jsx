@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div class="navbar">
         <div class="logo">
-            <img src={shop} />
+            <img src={shop} onClick={() => navigate('/np-ecommerce')}/>
         </div>
         <div class="search">
             <input type="text" placeholder="Search item here..."/>
