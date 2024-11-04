@@ -1,10 +1,11 @@
 import './style.css';
+import shop from '../assets/shop.jpeg';
 
 const Navbar = () => {
   return (
     <div class="navbar">
         <div class="logo">
-            {/* <img src="./images/shop.jpeg" /> */}
+            <img src={shop} />
         </div>
         <div class="search">
             <input type="text" placeholder="Search item here"/>
