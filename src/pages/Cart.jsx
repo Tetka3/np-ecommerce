@@ -1,9 +1,14 @@
 import React from 'react'
+import Navbar from '../components/Navbar';
+import CartProduct from '../components/CartProduct';
+import Footer from '../components/Footer';
 
 const Cart = () => {
   return (
-    <div>
-      cart
+    <div className='cart'>
+        <Navbar />
+        <CartProduct />
+        <Footer />
     </div>
   )
 }
