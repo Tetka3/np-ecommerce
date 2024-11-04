@@ -1,16 +1,16 @@
 import './style.css';
-// import shop from '../assets/shop.jpeg';
-// import cart from '../assets/cart.jpeg';
-// import { useNavigate } from 'react-router-dom';
+import shop from '../assets/shop.jpeg';
+import cart from '../assets/cart.jpeg';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
 
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
   return (
     <div class="navbar">
         <div class="logo">
-            {/* <img src={shop} onClick={() => navigate('/np-ecommerce')}/> */}
+            <img src={shop} onClick={() => navigate('/np-ecommerce')}/>
         </div>
         <div class="search">
             <input type="text" placeholder="Search item here..."/>
@@ -25,7 +25,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div class="cart">
-                {/* <img src={cart} onClick={() => navigate('/np-ecommerce/cart')} /> */}
+                <img src={cart} onClick={() => navigate('/np-ecommerce/cart')} />
                 <span class="js-quantity">0</span>
             </div>            
         </div>
