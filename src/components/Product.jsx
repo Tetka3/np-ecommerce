@@ -1,9 +1,10 @@
 import './style.css';
 
-const Product = () => {
+const Product = ({ product }) => {
   return (
-    <div>
-      produc
+    <div className='product'>      
+      <img src={`../assets/${product.imge}`}/>
+      <p>{product.description}</p>
     </div>
   )
 }
