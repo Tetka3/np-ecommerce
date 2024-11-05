@@ -5,6 +5,7 @@ const Product = ({ product }) => {
     <div className='product'>      
       <img src={`../assets/${product.imge}`}/>
       <p>{product.description}</p>
+      <button>Add To Cart</button>
     </div>
   )
 }
