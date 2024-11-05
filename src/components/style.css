@@ -145,6 +145,11 @@
     align-items: center;
     gap: 5px;
 }
+
+.cartRight {
+    flex: 1;
+}
+
 .footerDiv{
     background-color: rgb(24, 21, 21);
     height: 30vh;
@@ -211,10 +216,9 @@
     display: flex;
     flex-direction: column;
 }
-/* .productDetails{
-    display: flex;
-    flex-direction: column;
-} */
+.cartProduct {
+    flex: 2;
+}
 /* .cartImage{
     padding: 10px;
 }

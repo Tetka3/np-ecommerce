@@ -1,8 +1,8 @@
-import React from 'react'
+import './style.css';
 
 const RightCart = () => {
   return (
-    <div>
+    <div className='cartRight'>
       <div class="right">Right</div>
     </div>
   )
