@@ -1,9 +1,11 @@
 import './style.css';
 
-const Products = () => {
+const Products = ({ products }) => {
   return (
     <div className='products'>
-      pro
+      {
+        products.map((product) => <li>{product.imge}</li>)
+      }
     </div>
   )
 }
