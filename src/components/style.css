@@ -118,8 +118,7 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 30px;
-    transition: all 0.3s ease; 
-    
+    transition: all 0.3s ease;     
 }
 .product :hover{
     cursor: pointer;

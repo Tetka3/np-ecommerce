@@ -52,6 +52,11 @@ const Home = () => {
     id: 9,
     description: 'product 9',
     imge: 'visa.jpeg'
+  },
+  {
+    id: 10,
+    description: 'product 10',
+    imge: 'visa.jpeg'
   }])
   return (
     <div className='home'>
