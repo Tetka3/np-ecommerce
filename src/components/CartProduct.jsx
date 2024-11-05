@@ -58,7 +58,6 @@ const CartProduct = () => {
                 </div>  
             </div>
           </div>
-          <div class="right">Right</div>
     </div>  
   )
 }

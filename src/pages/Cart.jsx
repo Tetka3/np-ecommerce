@@ -1,13 +1,17 @@
-import React from 'react'
+import './styles.css'
 import Navbar from '../components/Navbar'
 import CartProduct from '../components/CartProduct'
 import Footer from '../components/Footer'
+import RightCart from '../components/RightCart'
 
 const Cart = () => {
   return (
-    <div>
+    <div className='itemsInCart'>
         <Navbar />
-        <CartProduct />
+        <div className="cartBody">
+          <CartProduct />
+          <RightCart />
+        </div>        
         <Footer />
     </div>
   )
