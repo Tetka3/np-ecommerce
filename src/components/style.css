@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
-    height: 60px;
+    height: 260px;
     font-size: 12px;
     background-color: purple;
     color: white;
@@ -16,12 +16,10 @@
     flex: 1;    
 }
 .logo img{
-    width: 60px;
-    height: 40px; 
-    border-radius: 5px;   
-}
-.logo img:hover{
-    cursor: pointer;
+    width: 100px;
+    height: 60px; 
+    border-radius: 5px; 
+    cursor: pointer;  
 }
 .search{
     flex: 1;
@@ -54,8 +52,8 @@
     border-bottom: 1px solid green;
 }
 .cart img{
-    width: 40px;
-    height: 30px;
+    width: 100px;
+    height: 60px;
     margin-left: 10px;
     border-radius: 5px;
 }
