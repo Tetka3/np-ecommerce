@@ -2,3 +2,11 @@
     display: flex;
     flex-direction: column;
 } */
+
+.itemsInCart {
+    display: flex;
+    flex-direction: column;
+}
+.cartBody {
+    display: flex;
+}
