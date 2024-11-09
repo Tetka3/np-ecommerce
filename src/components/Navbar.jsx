@@ -1,7 +1,7 @@
 import './style.css';
 import shop from '../assets/shop.jpeg';
 import cart from '../assets/cart.jpeg';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -20,7 +20,7 @@ const Navbar = () => {
             <div class="links">
                 <ul>
                     <li>My Account</li>
-                    <li>Register</li>                     
+                    <Link to={'/np-ecommerce/login'} style={{textDecoration: 'none'}}><li>Register</li></Link>                     
                     <li>Help </li> 
                 </ul>
             </div>
