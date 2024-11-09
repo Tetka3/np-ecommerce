@@ -125,7 +125,9 @@
 .bottom img:hover{                    
     transform: scaleX(1.2);
 }
-
+.loginPage {
+    height: 80vh;
+}
 .products{
     display: flex;    
     justify-content: space-between;

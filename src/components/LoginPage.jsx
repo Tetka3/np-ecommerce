@@ -1,8 +1,8 @@
-import React from 'react'
+import './style.css';
 
 const LoginPage = () => {
   return (
-    <div>
+    <div className='loginPage'>
       Log
     </div>
   )

@@ -19,9 +19,9 @@ const Navbar = () => {
         <div class="add">
             <div class="links">
                 <ul>
-                    <li>My Account</li>
+                    <Link to={'/np-ecommerce/login'} style={{textDecoration: 'none'}}><li>My Account</li></Link>
                     <Link to={'/np-ecommerce/login'} style={{textDecoration: 'none'}}><li>Register</li></Link>                     
-                    <li>Help </li> 
+                    <Link to={'/np-ecommerce/login'} style={{textDecoration: 'none'}}><li>Help </li></Link> 
                 </ul>
             </div>
             <div class="cart">
